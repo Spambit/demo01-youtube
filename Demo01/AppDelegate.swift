@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Demo01
 //
-//  Created by sambit sarkar on 26/12/17.
-//  Copyright © 2017 sambit sarkar. All rights reserved.
+//  Created by Cognition on 26/12/17.
+//  Copyright © 2017 Cognition. All rights reserved.
 //
 
 import UIKit

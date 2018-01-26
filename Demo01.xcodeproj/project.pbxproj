@@ -14,6 +14,10 @@
 		043D9EED1FF29CE400CF2835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D9EEB1FF29CE400CF2835 /* LaunchScreen.storyboard */; };
 		043D9EF81FF29CE400CF2835 /* Demo01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D9EF71FF29CE400CF2835 /* Demo01Tests.swift */; };
 		043D9F031FF29CE400CF2835 /* Demo01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D9F021FF29CE400CF2835 /* Demo01UITests.swift */; };
+		043D9F111FF29D0400CF2835 /* AwesomeProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D9F101FF29D0400CF2835 /* AwesomeProgressView.xib */; };
+		043D9F131FF29D1E00CF2835 /* AwesomeProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D9F121FF29D1E00CF2835 /* AwesomeProgressView.swift */; };
+		045CC90A1FF6A9720087A273 /* MyProgressBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045CC9091FF6A9720087A273 /* MyProgressBar.xib */; };
+		045CC90C1FF6A9810087A273 /* MyProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045CC90B1FF6A9810087A273 /* MyProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		043D9EFE1FF29CE400CF2835 /* Demo01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043D9F021FF29CE400CF2835 /* Demo01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo01UITests.swift; sourceTree = "<group>"; };
 		043D9F041FF29CE400CF2835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D9F101FF29D0400CF2835 /* AwesomeProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AwesomeProgressView.xib; sourceTree = "<group>"; };
+		043D9F121FF29D1E00CF2835 /* AwesomeProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeProgressView.swift; sourceTree = "<group>"; };
+		045CC9091FF6A9720087A273 /* MyProgressBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyProgressBar.xib; sourceTree = "<group>"; };
+		045CC90B1FF6A9810087A273 /* MyProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,8 @@
 		043D9ED61FF29CE400CF2835 = {
 			isa = PBXGroup;
 			children = (
+				045CC90B1FF6A9810087A273 /* MyProgressBar.swift */,
+				045CC9091FF6A9720087A273 /* MyProgressBar.xib */,
 				043D9EE11FF29CE400CF2835 /* Demo01 */,
 				043D9EF61FF29CE400CF2835 /* Demo01Tests */,
 				043D9F011FF29CE400CF2835 /* Demo01UITests */,
@@ -103,6 +113,8 @@
 				043D9EE91FF29CE400CF2835 /* Assets.xcassets */,
 				043D9EEB1FF29CE400CF2835 /* LaunchScreen.storyboard */,
 				043D9EEE1FF29CE400CF2835 /* Info.plist */,
+				043D9F101FF29D0400CF2835 /* AwesomeProgressView.xib */,
+				043D9F121FF29D1E00CF2835 /* AwesomeProgressView.swift */,
 			);
 			path = Demo01;
 			sourceTree = "<group>";
@@ -232,9 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045CC90A1FF6A9720087A273 /* MyProgressBar.xib in Resources */,
 				043D9EED1FF29CE400CF2835 /* LaunchScreen.storyboard in Resources */,
 				043D9EEA1FF29CE400CF2835 /* Assets.xcassets in Resources */,
 				043D9EE81FF29CE400CF2835 /* Main.storyboard in Resources */,
+				043D9F111FF29D0400CF2835 /* AwesomeProgressView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +275,8 @@
 			files = (
 				043D9EE51FF29CE400CF2835 /* ViewController.swift in Sources */,
 				043D9EE31FF29CE400CF2835 /* AppDelegate.swift in Sources */,
+				045CC90C1FF6A9810087A273 /* MyProgressBar.swift in Sources */,
+				043D9F131FF29D1E00CF2835 /* AwesomeProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
